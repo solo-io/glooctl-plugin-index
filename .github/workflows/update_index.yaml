@@ -1,0 +1,18 @@
+name: Update Index
+on:
+  push:
+    branches-ignore:
+      - 'main'
+jobs:
+  create_pr:
+    name: Create Pull Request
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Open Pull Request
+        uses: repo-sync/pull-request@v2
+        with:
+          destination_branch: "main"
+          pr_title: "Plugin Index Update"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
