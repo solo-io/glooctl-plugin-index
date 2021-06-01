@@ -1,6 +1,16 @@
 name: plugin
 description: The plugin management system for glooctl
 versions:
+- tag: v1.8.0-beta5
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.8.0-beta5/plugin-darwin-amd64
+    sha: 71ced1594c1b11a5552435a86042f8c1aa7f8c9975023c36ee53790e872f8eb1
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.8.0-beta5/plugin-linux-amd64
+    sha: 3a6beb3ccbed39d0c3349058627ef44f248130b2f44918c1d5421e9838a69469
 - tag: v1.7.8
   platforms:
   - os: darwin
