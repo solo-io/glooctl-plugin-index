@@ -1,6 +1,16 @@
 name: fed
 description: Utility to manage Gloo Federation
 versions:
+- tag: v1.8.3
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.8.3/fed-darwin-amd64
+    sha: 668246777a0a11099fcc4ba10a4e5755ac29139f50bb49c0e7edd274c65b0686
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.8.3/fed-linux-amd64
+    sha: ef7e78bc8158578be25de04d5e77e892b4c57edcd522f8a954bf82620743c3c9
 - tag: v1.8.2
   platforms:
   - os: darwin
