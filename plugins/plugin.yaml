@@ -181,6 +181,16 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.7.8/plugin-linux-amd64
     sha: cb434c4a2a92a233a3b65ea0e79c52c14e78ca384e0500771629cb0ca47be9b8
+- tag: v1.7.8-patch2
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.7.8-patch2/plugin-darwin-amd64
+    sha: b0999a9b2f5f69ab7a42e121d0fe02da7e17d7a306957f785777f02347fc63c1
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.7.8-patch2/plugin-linux-amd64
+    sha: 0a553358ada328606fc3d2e39bd5245e11ffb9c895c5114116cb498132ed0f88
 - tag: v1.7.8-patch1
   platforms:
   - os: darwin
