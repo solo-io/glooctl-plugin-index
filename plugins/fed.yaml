@@ -131,6 +131,16 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.9.0-beta1/fed-linux-amd64
     sha: 08e7d2f1fc718d8689c5c03a1f22912838db01ba9c0833769e015cd481c68d0a
+- tag: v1.8.13
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.8.13/fed-darwin-amd64
+    sha: 725e3f30a2075528df869d971b1d9d165275529a2bba6c5fc5011a83f210e011
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.8.13/fed-linux-amd64
+    sha: 1e86903b16df5d751e3055afb6746f66aff09dbbab25a36b1391f1b8f6151b93
 - tag: v1.8.12
   platforms:
   - os: darwin
