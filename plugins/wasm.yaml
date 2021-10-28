@@ -1,6 +1,16 @@
 name: wasm
 description: Utility to manage Gloo WASM filters
 versions:
+- tag: v1.9.2
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.9.2/wasm-darwin-amd64
+    sha: b9ecda873db93ddc0aba355f942f7bb216e2053b92e59150c968023ff2508458
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.9.2/wasm-linux-amd64
+    sha: 16d2a4e0b2e4045096a45aa016175a8b5cb78881fe62931d20413cce15f9a3c7
 - tag: v1.9.1
   platforms:
   - os: darwin
