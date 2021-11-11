@@ -601,3 +601,13 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.7.7/fed-linux-amd64
     sha: 4dd9b118d47e408b608e7337fa85c5632455b16437b3f5b4c7acb2c36fc8b3fe
+- tag: v1.6.27-hotfix1
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.6.27-hotfix1/fed-darwin-amd64
+    sha: 466f75c15bf9276dba4200264d631c37901c57b02c0430dd002945905b0ef407
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.6.27-hotfix1/fed-linux-amd64
+    sha: 6d4791a011d81aeba333df248cfcd76bcc1d33700408f8af4efdcf07f211c1ef

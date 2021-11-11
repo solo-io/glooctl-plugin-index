@@ -601,3 +601,13 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.7.7/wasm-linux-amd64
     sha: 5ee91b2f17a1a01950ae38e9028a9494039a363077a42018622e3797fd4434fe
+- tag: v1.6.27-hotfix1
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.6.27-hotfix1/wasm-darwin-amd64
+    sha: 423b4d00707ef29c1b1bc344a56e9bd0234cc450d4c487cd0e9350ba898a623b
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.6.27-hotfix1/wasm-linux-amd64
+    sha: f4f2acd5f3b1b13698245ece8e4214421e3ebe3beadc1559b878e7310db792a8
