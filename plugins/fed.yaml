@@ -1,6 +1,16 @@
 name: fed
 description: Utility to manage Gloo Federation
 versions:
+- tag: v1.10.0-beta4
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.10.0-beta4/fed-darwin-amd64
+    sha: 204ea34c9653736082ec8735b165c985ec28a6284f48a30413fa5cd1ee211b50
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.10.0-beta4/fed-linux-amd64
+    sha: f1e463bb4fd75b5231a4c8ca2abb7e29516ef01b239015d6d9ad5e0b6605aeec
 - tag: v1.10.0-beta3
   platforms:
   - os: darwin
@@ -31,16 +41,6 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.10.0-beta1/fed-linux-amd64
     sha: 5644580b9e0b6def2927fbd636ecc4cc9074296b23b34337d09d615297a40cbe
-- tag: 1.9.4
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/glooctl-plugins/fed/1.9.4/fed-darwin-amd64
-    sha: 83fb95b9bd5e22b479ef177af0bf9345916944629af7c55e7f413dcf4a6200d1
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/glooctl-plugins/fed/1.9.4/fed-linux-amd64
-    sha: 69b48d1ed34408cea489375a441fd41a77d93ab8bd9d80a947041a8d087e8b53
 - tag: v1.9.4
   platforms:
   - os: darwin
@@ -50,6 +50,16 @@ versions:
   - os: linux
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/fed/v1.9.4/fed-linux-amd64
+    sha: 69b48d1ed34408cea489375a441fd41a77d93ab8bd9d80a947041a8d087e8b53
+- tag: 1.9.4
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/1.9.4/fed-darwin-amd64
+    sha: 83fb95b9bd5e22b479ef177af0bf9345916944629af7c55e7f413dcf4a6200d1
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/fed/1.9.4/fed-linux-amd64
     sha: 69b48d1ed34408cea489375a441fd41a77d93ab8bd9d80a947041a8d087e8b53
 - tag: v1.9.3
   platforms:
