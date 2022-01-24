@@ -41,6 +41,16 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.10.0-beta1/wasm-linux-amd64
     sha: 3e85f50f1313a3e45d957cc3becb4e99c101a048d9353c4908ce8bfabeb9d1c4
+- tag: v1.9.9
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.9.9/wasm-darwin-amd64
+    sha: e1a27a35e05dd92938601568ea8efa5610dc12624b39f31c7da8d4fb6689ff19
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/wasm/v1.9.9/wasm-linux-amd64
+    sha: 83bb4557cfd268a18c54f4e0b4883eb9efa4a99bc7932bca443b180e32806273
 - tag: v1.9.8
   platforms:
   - os: darwin

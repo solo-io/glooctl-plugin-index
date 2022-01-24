@@ -41,6 +41,16 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.10.0-beta1/plugin-linux-amd64
     sha: 24fdc7173bd755a3a99419034fe4781ee3fa138ca8699d6877297717567b2e7f
+- tag: v1.9.9
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.9/plugin-darwin-amd64
+    sha: a61c9df129aa26238dec2a9eef6c88b9a4fb9115d5ffe872989aac6a850d3f02
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.9/plugin-linux-amd64
+    sha: 06a29b5cf65be487b91c951b606f652b0fe6de4df0c8f1eadcba9c34ccd4d1b4
 - tag: v1.9.8
   platforms:
   - os: darwin
