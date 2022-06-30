@@ -201,16 +201,6 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.5/plugin-linux-amd64
     sha: 06a29b5cf65be487b91c951b606f652b0fe6de4df0c8f1eadcba9c34ccd4d1b4
-- tag: v1.9.4
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.4/plugin-darwin-amd64
-    sha: 6f4d23614c9e0677993488ea4b990c9d2841c7427b45db6d7df358cc7910ca88
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.4/plugin-linux-amd64
-    sha: e0cf3ef82d0af3e658080648e7a39791086686faa22302b1c9ca7ac22a821b9e
 - tag: 1.9.4
   platforms:
   - os: darwin
@@ -220,6 +210,16 @@ versions:
   - os: linux
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/1.9.4/plugin-linux-amd64
+    sha: e0cf3ef82d0af3e658080648e7a39791086686faa22302b1c9ca7ac22a821b9e
+- tag: v1.9.4
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.4/plugin-darwin-amd64
+    sha: 6f4d23614c9e0677993488ea4b990c9d2841c7427b45db6d7df358cc7910ca88
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.4/plugin-linux-amd64
     sha: e0cf3ef82d0af3e658080648e7a39791086686faa22302b1c9ca7ac22a821b9e
 - tag: v1.9.3
   platforms:
@@ -411,6 +411,16 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.0-beta1/plugin-linux-amd64
     sha: 012c99e973b9bf207a08ef95948b6343d4f454473b3df322868aa7dff40264c4
+- tag: v1.8.31
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.8.31/plugin-darwin-amd64
+    sha: a831d0fb888f84ec25c0e610658f5eda3bd3f2e7c9cc2fd28865b0d03544bcc5
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.8.31/plugin-linux-amd64
+    sha: e015ca7a485450ea604f11114a13f05c72507ee4dfec1ac938fdf7df4c8c7290
 - tag: v1.8.30
   platforms:
   - os: darwin
