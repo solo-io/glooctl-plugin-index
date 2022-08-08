@@ -41,6 +41,16 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.10.0-beta1/plugin-linux-amd64
     sha: 24fdc7173bd755a3a99419034fe4781ee3fa138ca8699d6877297717567b2e7f
+- tag: v1.9.22
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.22/plugin-darwin-amd64
+    sha: 558b564c0cb8b73ed92a2ee50dd15d73fcceb9462af4847604f52386c3894cb7
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.22/plugin-linux-amd64
+    sha: 8a97ee30bd25521d8fd176edd4de52b7685bf80817fad4c57b10d8bb34992565
 - tag: v1.9.21
   platforms:
   - os: darwin
@@ -201,16 +211,6 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.5/plugin-linux-amd64
     sha: 06a29b5cf65be487b91c951b606f652b0fe6de4df0c8f1eadcba9c34ccd4d1b4
-- tag: 1.9.4
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/glooctl-plugins/plugin/1.9.4/plugin-darwin-amd64
-    sha: 6f4d23614c9e0677993488ea4b990c9d2841c7427b45db6d7df358cc7910ca88
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/glooctl-plugins/plugin/1.9.4/plugin-linux-amd64
-    sha: e0cf3ef82d0af3e658080648e7a39791086686faa22302b1c9ca7ac22a821b9e
 - tag: v1.9.4
   platforms:
   - os: darwin
@@ -220,6 +220,16 @@ versions:
   - os: linux
     arch: amd64
     uri: https://storage.googleapis.com/glooctl-plugins/plugin/v1.9.4/plugin-linux-amd64
+    sha: e0cf3ef82d0af3e658080648e7a39791086686faa22302b1c9ca7ac22a821b9e
+- tag: 1.9.4
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/1.9.4/plugin-darwin-amd64
+    sha: 6f4d23614c9e0677993488ea4b990c9d2841c7427b45db6d7df358cc7910ca88
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/glooctl-plugins/plugin/1.9.4/plugin-linux-amd64
     sha: e0cf3ef82d0af3e658080648e7a39791086686faa22302b1c9ca7ac22a821b9e
 - tag: v1.9.3
   platforms:
